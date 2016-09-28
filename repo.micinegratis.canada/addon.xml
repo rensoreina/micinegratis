@@ -1,0 +1,20 @@
+
+
+
+
+
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repo.micinegratis.canada" name="Kodi-Micinegratis official Repo" version="1.0" provider-name="KodiMicinegratis">
+	<extension point="xbmc.addon.repository" name="repo.micinegratis.canada">
+		<info compressed="false">https://raw.githubusercontent.com/rensoreina/micinegratis/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/rensoreina/micinegratis/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/rensoreina/micinegratis/master/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Kodi-Mexico official Repo</summary>
+   		<description lang="en">Instala los Addons de Kodi Mexico.</description>
+		<disclaimer></disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
